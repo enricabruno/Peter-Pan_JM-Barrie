@@ -22,7 +22,8 @@ h3 {
 h4 {
     font-family: "Times New Roman", Times, serif; 
     font-size: 20px;
-    text-shadow: 1px 1px 1px #ababab;}
+    text-shadow: 1px 1px 1px #ababab;
+}
 
 h5 {
     font-family: "Times New Roman", Times, serif; 
@@ -185,7 +186,11 @@ h6 {
     height: 400px;
 }
 
-aside .card:hover, .card-tool:hover, .card-item:hover, .card-related-item:hover, .card-percorso:hover, .card-articolo:hover {box-shadow: 0px 5px 40px -10px rgba(122, 144, 173, .9); -webkit-box-shadow: 0px 5px 40px -10px rgba(38, 44, 52, .9); -moz-box-shadow: 0px 5px 40px -10px rgba(38, 44, 52, .9);}
+aside .card:hover, .card-tool:hover, .card-item:hover, .card-related-item:hover, .card-percorso:hover, .card-articolo:hover {
+    box-shadow: 0px 5px 40px -10px rgba(122, 144, 173, .9); 
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(38, 44, 52, .9); 
+    -moz-box-shadow: 0px 5px 40px -10px rgba(38, 44, 52, .9);
+}
 
 
 /* carousel */
@@ -338,6 +343,7 @@ body {
   top: 55%;
   opacity: 0;
 }
+
 .tl-content h1 {
   font-family: "Times New Roman", Times, serif;
   text-transform: uppercase;
@@ -355,6 +361,7 @@ body {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
 }
+
 .tl-year p {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.728rem;
@@ -373,7 +380,6 @@ body {
   transition: filter 0.5s ease;
   filter: grayscale(100%);
 }
-
 
 /* link */
 .link {
