@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<!-- head -->
+<head>
+    <!-- charset -->
+    <meta charset="utf-8">
+
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width,initial scale=1.0"/>
+
+    <!-- titolo -->
+    <title>Peter Pan di J. M. Barrie</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- css esterno  -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- bootstrap navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="tornasu">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" title="Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" title="Progetto">Progetto</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            title="Collezione">Collezione</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="lista.html" title="Lista">Lista</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#" title="Luoghi">Luoghi</a>
+                            <a class="dropdown-item" href="#" title="Date">Date</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" title="Media"> Media</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button type="button" class="btn btn-outline-light-navbar">Cerca</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+        <!-- nome persona -->
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 background-strumenti pt-3 pb-3">
+                    <h3 class="text-center">James Matthew Barrie</h3>
+                </div>
+            </div>
+            <div class="row">
+                <!-- sidebar a sinistra -->
+                <div class="col-md-2 col-sm-2 col-sx-12 mt-4">
+                    <aside>
+                        <!-- breadcrumb-->        
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html" class="link">Home</a></li>
+                                <li class="breadcrumb-item"><a href="lista.html" class="link">Lista completa</a></li>
+                                <li class="breadcrumb-item active" aria-current="page" class="link">James Matthew Barrie</li>
+                            </ol>
+                        </nav>
+                        <div class="btn-group pl-3" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-outline-light"><i class="bi bi-star" 
+                                    title="Aggiungi ai preferiti"></i></button>
+                            <button type="button" class="btn btn-outline-light"><i class="bi bi-share" 
+                                    title="Condividi"></i></button>
+                            <button type="button" class="btn btn-outline-light"><i class="bi bi-images" 
+                                    title="Vedi tutte le immagini della collezione"></i></button>
+                        </div>  
+                    </aside>
+                </div>
+                <!-- persona -->
+                <div class="col-md-8 col-sm-8 col-xs-12 mt-4">
+                    <div class="row">
+                        <div class="card w-100">
+                            <!-- carousel con slide singola -->
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active carousel-persona">
+                                        <img src="immagini/img-persona/barrie1.jpg" class=" mx-auto d-block pt-5" alt="J.M. Barrie">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--citazione-->
+                            <div class="card-header pt-4">
+                                <p class="citazione">«Il terrore della mia infanzia era la consapevolezza che
+                                    sarebbe venuto un tempo in cui anche io avrei dovuto rinunciare ai giochi e 
+                                    non sapevo come avrei fatto (questo tormento mi ritorna ancora nei sogni quando 
+                                    mi scopro a giocare a palline di vetri e mi giudico con severa riprovazione); 
+                                    sento che devo continuare a giocare in segreto.»
+                                    <br><p class="nota">James M. Barrie, <em>Prefazione e traduzione a cura di Renato Gorgoni</em>, in <em>Peter Pan: Peter Pan nei Giardini di Kensington. Peter e Wendy</em>, Milano, Rizzoli, 1981.</p></br>
+                            </div>
+                            <!-- metadati -->
+                            <div class="card-body">
+                                <p class="card-text"><span>Cognome e nome:</span> <b><a
+                                    href="https://viaf.org/viaf/64001320/" target="_blank"
+                                    title="Identificativo VIAF di J. M., Barrie">J. M.,
+                                    Barrie<sup>VIAF</sup></a></b></p>
+                                <hr>
+                                <p class="card-text"><span>Sesso:</span> <b>M</b></p>
+                                <hr>
+                                <p class="card-text"><span>Nazionalità:</span> <b>inglese</b></p>
+                                <hr>
+                                <p class="card-text"><span>Data di nascita:</span> <b><a href="#"
+                                    title="3 maggio 1820">9 maggio 1860</a></b>
+                                    <button type="button" class="btn btn-secondary btn-sm" title="Vedi in Date">Date
+                                    </button></a></p>
+                                <hr>
+                                <p class="card-text"><span>Luogo di nascita:</span> <b><a
+                                    href="https://www.geonames.org/2645191/kirriemuir.html" target="_blank"
+                                    title="Identificativo GeoNames di Kirriemuir, Inghilterra">Kirriemuir<sup>GeoNames</sup></a></b>
+                                    <button type="button" class="btn btn-secondary btn-sm" title="Vedi in Luoghi">Luoghi</button>
+                                </p>
+                                <hr>
+                                <p class="card-text"><span>Data di morte:</span> <b><a 
+                                    href="#" title="4 ottobre 1891">4 ottobre 1891</a></b>
+                                    <button type="button" class="btn btn-secondary btn-sm" title="Vedi in Date">Date</button></a></p>
+                                <hr>
+                                <p class="card-text"><span>Luogo di morte:</span> <b><a
+                                    href="https://www.geonames.org/2643743/london.html" target="_blank"
+                                    title="Identificativo GeoNames di Londra, Inghilterra">Londra<sup>GeoNames</sup></a></b>
+                                    <button type="button" class="btn btn-secondary btn-sm" title="Vedi in Luoghi">Luoghi</button>
+                                </p>
+                                <hr>
+                                <p class="card-text"><span>Attività:</span> <b>scrittore</b></p>
+                                <hr>
+                                <p class="card-text"><span>ID pagina Wikipedia:</span> <b><a
+                                    href="https://it.wikipedia.org/wiki/J._M._Barrie" target="_blank"
+                                    title="Pagina Wikipedia di J.M., Barrie">Q81796<sup>Wikipedia</sup></a></b>
+                                </p>
+                                <hr>
+                                <p class="card-text"><span>Controllo di autorità:</span></p>
+                                <ul>
+                                    <!-- viaf -->
+                                    <li><b><a href="https://viaf.org/viaf/64001320/" target="_blank"
+                                                title="Identificativo VIAF di J. M., Barrie" class="link">64001320<sup>VIAF</sup></a></b>
+                                    </li>
+                                    <!-- ISNI -->
+                                    <li><b><a href="https://isni.oclc.org/xslt/DB=1.2//CMD?ACT=SRCH&IKT=8006&TRM=ISN%3A
+                                    0000000080775690&TERMS_OF_USE_AGREED=Y&terms_of_use_agree=send&COOKIE=U51,KENDUSER,I28,B0028++++++,SY,NISNI,D1.2,Ee42d7386-47,A,H1,,3-28,,30-41,,43-59,,65-70,,74-75,R62.11.200.117,FY" 
+                                                target="_blank" 
+                                                title="Identificativo ISNI di J.M., Barrie" class="link">0000000080775690<sup>ISNI</sup></a></b></li>
+                                    <!-- SBN -->
+                                    <li><b><a href="https://opac.sbn.it/opacsbn/opac/iccu/scheda_authority.jsp?bid=CFIV019800"
+                                                target="_blank"
+                                                title="Identificativo SBN di J. M., Barrie" class="link">T\ICCU\CFIV\019800<sup>SBN</sup></a></b>
+                                    </li>
+                                    <!-- Europeana -->
+                                    <li><b><a href="https://www.europeana.eu/it/collections/person/61104-j.-m.-barrie" 
+                                                target="_blank"
+                                                title="Identificativo Europeana di J.M., Barrie" class="link">61104<sup>Europeana</sup></a></b>
+                                    </li>
+                                    <!-- LCCN -->
+                                    <li><b><a href="https://id.loc.gov/authorities/names/n50000555.html" 
+                                                target="_blank"
+                                                title="Identificativo LCCN di J. M., Barrie" class="link">n50000555<sup>LCCN</sup></a></b>
+                                    </li>
+                                    <!-- GND -->
+                                    <li><b><a href="https://portal.dnb.de/opac.htm?method=simpleSearch&cqlMode=true&query=nid%3D11865733X"
+                                                target="_blank"
+                                                title="Identificativo GND di J. M., Barrie" class="link">11865733X<sup>GND</sup></a></b>
+                                    </li>
+                                    <!-- BNF -->
+                                    <li><b><a href="https://data.bnf.fr/en/11890351/james_matthew_barrie/"
+                                                target="_blank"
+                                                title="Identificativo BNF di J. M., Barrie" class="link">11890351<sup>BNF</sup></a></b>
+                                    </li>
+                                    <!-- BNE -->
+                                    <li><b><a href="https://datos.bne.es/persona/XX1721374.html"
+                                                target="_blank"
+                                                title="Identificativo BNE di J. M., Barrie" class="link">1721374<sup>BNE</sup></a></b>
+                                    </li>
+                                    <!-- NLA -->
+                                    <li><b><a href="https://librariesaustralia.nla.gov.au/search/display?dbid=auth&id=36253127" 
+                                                target="_blank"
+                                                title="Identificativo NLA di J. M., Barrie" class="link">36253127<sup>NLA</sup></a></b>
+                                    </li>
+                                    <!-- BAV -->
+                                    <li><b><a href="https://opac.vatlib.it/auth/detail/495_110846" 
+                                                target="_blank"
+                                                title="Identificativo CERL di J. M., Barrie" class="link">495/110846<sup>BAV</sup></a></b>
+                                    </li>
+                                    <!-- NDL -->
+                                    <li><b><a href="https://id.ndl.go.jp/auth/ndlna/00432399" 
+                                                target="_blank"
+                                                title="Identificativo VIAF di J. M., Barrie" class="link">00432399<sup>NDL</sup></a></b>
+                                    <!-- WorldCat Identities -->
+                                    <li><b><a href="https://www.worldcat.org/identities/lccn-n50000555/" 
+                                                target="_blank"
+                                                title="Identificativo  WorldCat Identities di J. M., Barrie" class="link">lccn-n50000555<sup>WorldCat Identities</sup></a></b>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <p class="card-text">Tema:</p>
+                                <!-- tag -->
+                                <div>
+                                    <button type="button" class="btn btn-light"><i class="bi bi-tag-fill"></i>
+                                        Letteratura per ragazzi</button>
+                                    <button type="button" class="btn btn-secondary btn-sm"><i
+                                            class="bi bi-tag-fill"></i>
+                                        Letteratura per giovani adulti</button>
+                                    <button type="button" class="btn btn-light"><i class="bi bi-tag-fill"></i>
+                                        Fantasy</button>
+                                    <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-tag-fill"></i>
+                                        Novecento</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- sidebar a destra -->
+                <div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+                    <aside>
+                        <!-- suggerimenti -->
+                        <div class="mt-4">
+                            <h6 class="text-aside mt-4" align="center">Le "muse infantili" di Barrie: <br>i 
+                                ragazzi Llewelyn Davies</br></h6>
+                            <div class="card">
+                                <img src="immagini/img-persona/fratelli-davies.jpg" class="card-img-top"
+                                        alt="Michael Llewelyn Davies">
+                                <div class="card-body"> 
+                                    <h5 class="card-title" align="center"><b><em>The Boy Castaways of Black Lake Island</em></b></h5>
+                                    <p class="card-text">Creatore: <b><a href="https://viaf.org/viaf/64001320/"
+                                        target="_blank" title="Identificativo VIAF di J. M., Barrie">J. M.,
+                                        Barrie<sup>VIAF</sup></a></b>.</p>
+                                    <p class="card-text">Data: <b><a href="#" title="1901">1901</a></b>.</p>
+                                        <p class="card-text">Istituzione fornitrice: <b><a
+                                            href="https://beinecke.library.yale.edu/"
+                                            target="_blank"
+                                            title="Pagina web di Beinecke Rare Book & Manuscript Library">
+                                            Beinecke Rare Book & Manuscript Library<sup>Official website</sup></a></b>.
+                                    <p align="center"><a href="https://en.wikipedia.org/wiki/Michael_Llewelyn_Davies" 
+                                        class="btn btn-outline-light-card" title="Tutti i Metadati" target="_blank">Metadati</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt4">
+                            <h6 class="text-aside mt-4" align="center">Scopri di più sulla vita di J. M. Barrie</h6>
+                            <div class="card">
+                                <iframe width="210" height="200" src="https://www.youtube.com/embed/phNYh5yCFHA" 
+                                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                </iframe>
+                            <div class="card-body">
+                                <h5 class="card-title" align="center"><b><em>J. M. Barrie documentary</em></b></h5>
+                                <p clas="card-text">Tipo di oggetto: <b>video</b>.</p>
+                                <p class="card-text">Produttore: <b><a href="https://www.youtube.com/channel/
+                                    UCNiTj1phKBmEt3VGtLJSXdg" target="_blank" 
+                                    title="Pagina Youtube di Write Like">Write Like<sup>Youtube</sup></a></b>.</p>
+                                <p align="center"><a href="https://www.youtube.com/watch?v=phNYh5yCFHA&t=53s" 
+                                    class="btn btn-outline-light-card" title="Guarda su youtube" 
+                                    target="_blank">Youtube</a></p>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="background-senape pt-4 mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Peter Pan di J. M. Barrie</h4>
+                        <p class="text-footer">Progetto realizzato per il corso <em>Digital Humanities e 
+                            Patrimonio Culturale</em></p>
+                        <p class="text-footer">A.A 2020-2021</p> 
+                        <p class="text-footer">Laurea Magistrale in Italianistica, Università di Bologna</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <h4>Contatti</h4>
+                            <p class="text-footer"><strong>Email</strong>: <a href="mailto:enrica.bruno@studio.unibo.it"    class="link-footer" target="_blank">enrica.bruno@studio.unibo.it</a></p>
+                            <p class="text-footer"><strong>Social</strong>: <a href="#"> <i class="bi bi-instagram"></i><i class="bi bi-facebook"></i> <i class="bi bi-twitter"></i></a>
+                                <p class="text-footer"><strong>Dipartimento</strong>: <a href="https://ficlit.unibo.it/it/dipartimento/contatti" class="link-footer" target="_blank">Filologia Classica e Italianistica</a></p>
+                        </ul>
+                    </div> 
+                </div>    
+            </div>
+        </div>
+        <!-- copyright -->
+        <div class="container-fluid bg-light">
+            <p class="text-center text-dark mb-0 p-2">&copy; 2022 Enrica Bruno | <em> Alma Mater Studiorum</em>, 
+                Dipartimento di Filologia Classica e Italianistica, Bologna | <a href="http://creativecommons.org/licenses/by/4.0/" class="btn btn-light" target="_blank" title="Licenza Creative Commons CC BY 4.0"> <img alt="Creative Commons License" style="border-width:0; width: 60px;"src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></p>
+        </div>
+    </footer>
+    
+    <!-- script bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <!-- bootstrap js -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+

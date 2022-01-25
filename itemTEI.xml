@@ -1,0 +1,80 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Peter and Wendy, digital version</title>
+				<author>James Matthew Barrie</author>
+				<respStmt>
+					<resp>marcatura</resp>
+					<persName xml:id="EB">Enrica Bruno</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Sito web Peter Pan di J.M. Barrie</p>
+				<date>2022</date>
+				<availability status="limited">
+					<p>© 2022 Enrica Bruno | Alma Mater Studiorum, Dipartimento di Filologia Classica e Italianistica, Bologna.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msIdentifier>
+					<settlement><placeName>New York</placeName></settlement>
+					<editor>Charles Scribner's Sons</editor>
+				</msIdentifier>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Digitalizzazione eseguita ai fini della prova d'esame di Digital Humanities e Patrimonio Culturale, 
+					corso di Laurea Magistrale in Italianistica</p>
+			</projectDesc>
+		</encodingDesc>
+	</teiHeader>
+	<text type="prose">
+		<front>
+			<div type="contents">
+				<head>Contents</head>
+				<list>
+					<item>I. Peter Breaks Through</item>
+					<item>II. The Shadow</item>
+					<item>III. Come away, come away!</item>
+					<item>IV. The flight</item>
+					<item>V. The island come true</item>
+					<item>VI. The little house</item>
+					<item>VII. The home under the ground</item>
+					<item>VIII. The mermaids' lagoon</item>
+					<item>IX. The never bird</item>
+					<item>X. The happy home</item>
+					<item>XI. Wendy's story</item>
+					<item>XII. The children are carried off</item>
+					<item>XIII. Do you believe in fairies?</item>
+					<item>XIV. The pirate ship</item>
+					<item>XV. "Hook or me this time"</item>
+					<item>XVI. The return home</item>
+					<item>XVII. When Wendy grew up</item>
+				</list>
+			</div>
+			<div type="illustrations">
+				<head>Illustrations from Drawings by F.D. Bedford</head>
+				<list>
+					<item>Peter flew in</item>
+					<item>Pictorial title-page</item>
+					<item>The birds were flown</item>
+					<item>"Let him keep who can"</item>
+					<item>The never never island</item>
+					<item>Peter on guard</item>
+					<item>Summer days on the lagoon</item>
+					<item>"To die will be an awfully big adventure"</item>
+					<item>Wendy's story</item>
+					<item>Flung like bales</item>
+					<item>"Hook or me this time"</item>
+					<item>"This man is mine"</item>
+					<item>Peter and Jane</item>
+				</list>
+			</div>
+		</front>
+		<body>
+			<p xml:lang="en" n="1">All children, except one, grow up. They soon know that they will grow up, and the way <name type="person" resp="#EB">Wendy</name> knew was this. One day when <rs type="person">she</rs> was <num type="cardinal" value="2">two</num> years old <rs type="person">she</rs> was playing in a <name type="place">garden</name>, and <rs type="person">she</rs> plucked another flower and ran with it to <rs type="person">her</rs> mother. I suppose <rs type="person">she</rs> must have looked rather delightful, for <name type="person" resp="#EB"><choice resp="#EB"><abbr>Mrs</abbr><expan>Missus</expan></choice> Darling</name> put <rs type="person">her</rs> hand to <rs type="person">her</rs> heart and cried, <q>Oh, why can't you remain like this for ever!</q> This was all that passed between <rs type="person">them</rs> on the subject, but henceforth <name type="person" resp="#EB">Wendy</name> knew that <rs type="person">she</rs> must grow up. You always know after you are <num type="cardinal" value="2">two</num>. <num type="cardinal" value="2">Two</num> is the beginning of the end.</p>
+		</body>
+	</text>
+</TEI>

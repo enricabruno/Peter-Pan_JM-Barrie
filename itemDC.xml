@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="Peter Pan di J. M. Barrie">
+	<item n="2" xml:id="Peter and Wendy">
+		<dc:title>Peter and Wendy</dc:title>
+		<dc:creator ref="https://viaf.org/viaf/64001320/">J.M., Barrie</dc:creator>
+		<dc:subject>Romanzo di Peter Pan</dc:subject>
+		<dc:description>
+			<img source="immagini/img-item/item2.png"/>Prima edizione del 1911 di Peter and Wendy, romanzo di James Matthew Barrie con illustrazioni di Francis Donkin Bedford.
+		</dc:description>
+		<dc:publisher>New York: Charles Scribner's Sons</dc:publisher>
+		<dc:contributor> New York Public Library</dc:contributor>
+		<dc:date>2007-07-26</dc:date>
+		<dc:date type="creator">1860-1937</dc:date>
+		<dc:type>text</dc:type>
+		<dc:format>316 pages</dc:format>
+		<dc:identifier>peterwendy00barr2</dc:identifier>
+		<dc:source>Versione analogica del 1911</dc:source>
+		<dc:language>eng</dc:language>
+		<dc:coverage type="spatial">New York</dc:coverage>
+		<dc:provenance ref="https://openlibrary.org/">Open Library</dc:provenance>
+	</item>
+</collection>
