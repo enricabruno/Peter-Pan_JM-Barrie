@@ -37,7 +37,7 @@ h6 {
 /* backgrounds */
 .background-disegno {
     background-attachment: fixed; 
-    background-image: url("immagini/img-index/sfondo-index.jpg"); 
+    background-image: url("../immagini/img-index/sfondo-index.jpg"); 
     background-size: cover; 
     background-repeat: no-repeat;
 }
