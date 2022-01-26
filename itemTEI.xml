@@ -84,7 +84,7 @@
 				flower and ran with it to <rs type="person">her</rs> mother. I suppose 
 				<rs type="person">she</rs> must have looked rather delightful, for <name type="person" resp="#EB"><choice resp="#EB"><abbr>Mrs</abbr><expan>Missus</expan></choice> 
 				Darling</name> put <rs type="person">her</rs> hand to <rs type="person">her</rs> heart and cried, 
-				<q>Oh, why can't you remain like this for ever!</q> 
+				<q type="thought">Oh, why can't you remain like this for ever!</q> 
 				This was all that passed between <rs type="person">them</rs> on the 
 				subject, but henceforth <name type="person" resp="#EB">Wendy</name> knew that <rs type="person">she</rs> must grow up. You always know after you are 
 				<num type="cardinal" value="2">two</num>. <num type="cardinal" value="2">Two</num> is the beginning of the end.</p>
